@@ -1,0 +1,1 @@
+cmd_/home/bumyoung/ldd3/ch03-2/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/bumyoung/ldd3/ch03-2/hello.ko /home/bumyoung/ldd3/ch03-2/hello.o /home/bumyoung/ldd3/ch03-2/hello.mod.o ;  true
